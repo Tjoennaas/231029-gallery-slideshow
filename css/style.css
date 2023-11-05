@@ -114,7 +114,7 @@
 
 #next {
   position: fixed;
-  right: 10%;
+  right: 25%;
   width: 50px;
  background:   rgba(96, 83, 83, 0.30);
  border:none;
@@ -127,35 +127,35 @@
 }
 
 
-.list {
-  display: flex;
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
-}
-
-
 .slider {
-  width:110vh ;
-
+  cursor: pointer;
+  width: 110vh;
   overflow-x: scroll;
 }
+.slider {
+display: flex;
+scroll-snap-type: x mandatory ;
+}
 
-
+.list { display: flex;
+}
+.list img { 
+ width: 110vh;
+ scroll-snap-align: start;
+ scroll-snap-stop: always;
+}
 .list img {
   width: 110vh ;
-
-  scroll-snap-align: start;
+scroll-snap-align: start;
   scroll-snap-stop: always;
+} 
+
+@media screen and ( max-width: 600px){
+  
+  .list img 
+  {  width: 95% ;
+    object-fit:contain ;  
 }
 
  
-@media screen and ( max-width: 600px){
-  .slider{ width:  ;}
-  .list img { width: 95% ;
-    height: px ;
-     object-fit:contain ;
-    
-}
-
-   
 } 
