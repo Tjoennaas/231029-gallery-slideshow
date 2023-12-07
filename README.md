@@ -12,6 +12,11 @@ Responsive design: compatible with all devices.
 
 Browser support: No known issues.
 
-Links and refe
+Links and references: Mainly based on/inspired by various tutorials on the specific subjects from YouTube, with modifications and adjustments made to fit my project. Some I have lost, unfortunately, here’s the rest:
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://www.youtube.com/watch?v=57pXPbTRhCc
+https://www.youtube.com/watch?v=VcRuVYYH3SE&t=1050s
+https://www.youtube.com/watch?v=9HcxHDS2w1s&t=39s
+
 
 Images: All rights reserved, copyright: Espen Gjerløv 2023
